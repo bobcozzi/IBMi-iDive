@@ -66,6 +66,10 @@ The earlier releases remain at
 See [CHANGELOG.md](CHANGELOG.md). Binaries are distributed as release assets,
 not committed to the repository's Git tree.
 
+## Privacy
+
+See the [privacy policy](PRIVACY.md). iDive sends your data only to the IBM i systems you connect to.
+
 ## Source Availability
 
 Current application source code is private. This repository's Git history and
