@@ -17,8 +17,8 @@ private repository.
 Download installers and executables from
 [GitHub Releases](https://github.com/bobcozzi/IBMi-iDive/releases).
 
-| Platform             | Release                                                                            |
-| -------------------- | ---------------------------------------------------------------------------------- |
+| Platform             | Release                                                                             |
+| -------------------- | ----------------------------------------------------------------------------------- |
 | macOS, Apple Silicon | [1.0.0 macOS](https://github.com/bobcozzi/IBMi-iDive/releases/tag/v1.0.0-macos)     |
 | Windows, x64         | [1.0.0 Windows](https://github.com/bobcozzi/IBMi-iDive/releases/tag/v1.0.0-windows) |
 
