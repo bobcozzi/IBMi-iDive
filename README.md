@@ -39,11 +39,29 @@ iPad support remains private development only. No public iPad asset is provided.
 - Spooled files (SCS and AFPDS viewing), IFS browsing, message queues and
   inquiry replies, and Admin panels.
 - Auto Recall of the editor session, saved to the IBM i IFS (`/iDive` folder in
-  your home directory) or to the local PC only.
+  your home directory) or to the local PC only. With several connections to
+  the same host, only the first uses the host copy; the others keep local
+  scripts, and Connections > Load Script from Host pulls the host script in on
+  demand.
 - Connects directly to IBM i with Go. Java is not required.
 
 Host feature availability depends on IBM i release, PTF levels, configuration,
 and authority.
+
+## Multiple Connections and Auto Recall
+
+Auto Recall keeps the SQL/CL script for each connection between sessions.
+
+- The first connection to a host and user saves its script on the IBM i host
+  (`/iDive` folder in your home directory) and loads it when you connect. If
+  the host has no saved script, the copy on your PC is used.
+- If you open a second connection to the same host, the last saved script is
+  not loaded from the host. Each additional connection keeps its own script
+  on your PC and starts empty when it has none.
+- To pull the host's saved script into a connection on demand, choose
+  Connections > Load Script from Host.
+- Disconnect and Reconnect, also on the Connections menu, apply to the active
+  connection. A reconnect keeps its connection number.
 
 ## Requirements
 
