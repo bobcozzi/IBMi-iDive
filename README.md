@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="media/iDive-splash.png" alt="iDive for IBM i" width="720">
-</p>
-
 # iDive for IBM i
 
 A desktop SQL and CL client for IBM i by Bob Cozzi. iDive continues the
@@ -31,6 +27,10 @@ runtime-tested on Windows**. Extract the ZIP before launching the executable;
 Microsoft Edge WebView2 Runtime is required.
 
 iPad support remains private development only. No public iPad asset is provided.
+
+<p align="center">
+  <img src="media/iDive-splash.png" alt="iDive for IBM i" width="720">
+</p>
 
 ## Features
 
