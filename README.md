@@ -43,6 +43,12 @@ iPad support remains private development only. No public iPad asset is provided.
   the same host, only the first uses the host copy; the others keep local
   scripts, and Connections > Load Script from Host pulls the host script in on
   demand.
+- Auto-refresh for Admin views and Message queues, and a kiosk (fullscreen)
+  mode that shows only the list, for example *MSGW messages or job queues with
+  jobs waiting.
+- Export and import your connections, settings, and statement history through
+  the IBM i home folder to set up another PC or iPad. Saved passwords are not
+  exported.
 - Connects directly to IBM i with Go. Java is not required.
 
 Host feature availability depends on IBM i release, PTF levels, configuration,

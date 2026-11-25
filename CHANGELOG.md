@@ -13,6 +13,46 @@ First release under the iDive name. iDive continues IBMi-RUNSQL (last release
 - Saved connections, settings, history, and passwords are migrated from
   IBMi-RUNSQL on first launch.
 
+### Refreshed builds, fourth update, 25 November 2026
+The macOS, Windows, and iPad 1.0.0 builds were rebuilt again with these updates.
+
+#### Added
+- Admin > Active Jobs: right-click a job for Work with Job SPOOLED Files (opens
+  the Spooled Files list filtered to that job) and Copy Job Name
+  (`number/user/name`). A Qualified Job Name column is available in the column
+  settings, and Current User is shown in bold when it differs from the job's
+  user. Pasting a three-part job name into the Spooled Files Job Filter fills
+  Name, User, and Number.
+- Auto-refresh for Admin views and Message queues: a switch and an interval
+  from 30 seconds to 30 minutes. It is off at every launch, refreshes without
+  clearing your selection, pauses when you leave the panel and refreshes when
+  you return, and turns itself off after a failed refresh.
+- Kiosk (fullscreen) mode for Admin views and Message queues, from the
+  full-screen button or View > Kiosk View. Only the list and a title bar are
+  shown; Esc or Enter returns to the normal window. The title bar says when
+  auto-refresh is disabled.
+- Connections > Export / Import Connections and Settings to/from Host (also on
+  the Settings > Export / Import page, which is how to use it on iPad). Your
+  connections, settings, and statement history are saved in the `iDive` folder
+  of your IBM i home directory so another device can load them. Saved
+  passwords and local folder locations are not included.
+- Messages: a Reset menu for sorting and column widths, and Remove for a
+  message queue from its right-click menu (swipe it left on iPad). The queue
+  list follows the Startup Message Queues you save under Connections, and
+  `*USER` shows your assigned message queue name as soon as the panel loads.
+- Admin > Job Queues: Active Jobs and Queued Jobs switches, off by default,
+  show only queues with a count above 0.
+
+#### Changed
+- Job Queues columns: Jobs is now Queued Jobs and sits next to Active Jobs.
+  The default order is Queue, Status, Queued Jobs, Active Jobs, Max Jobs,
+  Subsystem, Seq, Description, and ASP; Subsystem Library is hidden by
+  default. Saved column layouts are unchanged.
+- Dialog buttons now put Cancel before the action throughout the app (for
+  example Cancel | Save, Cancel | Remove).
+- Removing a message queue from the list confirms with Remove, not Delete.
+- New splash image.
+
 ### Refreshed builds, third update, 24 November 2026
 The macOS, Windows, and iPad 1.0.0 builds were rebuilt again with these updates.
 
