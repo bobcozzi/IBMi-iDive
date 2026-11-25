@@ -13,6 +13,29 @@ First release under the iDive name. iDive continues IBMi-RUNSQL (last release
 - Saved connections, settings, history, and passwords are migrated from
   IBMi-RUNSQL on first launch.
 
+### Refreshed builds, third update, 24 November 2026
+The macOS, Windows, and iPad 1.0.0 builds were rebuilt again with these updates.
+
+#### Added
+- Job Log window: a Refresh button reloads the job log. When the job has ended
+  and its job log is gone, the window does not open (or closes on Refresh) and
+  a brief message, "Job ended no joblog available", appears instead.
+- Quit App setting (Settings > Application > Notifications): Never, Multiple
+  Connections, or Always. The quit prompt has a "Never ask again" switch that
+  sets it to Never; scripts are still saved before the app exits.
+- Settings > Application: Theme and the Control Tabs Text and Background colors
+  are grouped under Appearance/Theme.
+
+#### Changed
+- The Save/OK and Cancel buttons of the quit prompt respond reliably even when
+  the mouse moves slightly while clicking.
+
+#### Fixed
+- Spooled file viewer: `*ERR` / `*ERROR` now recognizes SQL RPG precompiler
+  listings (product IDs such as 5770ST1), finds the compiler banner anywhere in
+  the first lines of the listing, and also flags the RPG compile errors in SQL
+  RPG listings.
+
 ### Refreshed builds, second update, 24 November 2026
 The macOS, Windows, and iPad 1.0.0 builds were rebuilt again with these updates.
 
