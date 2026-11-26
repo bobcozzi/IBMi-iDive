@@ -72,6 +72,7 @@ Auto Recall keeps the SQL/CL script for each connection between sessions.
 ## Requirements
 
 - An IBM i user profile and network access to the IBM i host servers.
+- The IBM i host servers `*RMTCMD` and `*DATABASE` must be started (`*FILE` and `*NETPRT` for IFS and spooled-file images). See [IBM i host requirements](HOST_REQUIREMENTS.md) for ports, TLS, and connection troubleshooting.
 - Windows requires Microsoft Edge WebView2 Runtime.
 
 ## Upgrading from IBMi-RUNSQL
